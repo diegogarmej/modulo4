@@ -1,7 +1,10 @@
-def func(x):
-    res=0
-    for i in range(x):
-        res+=i
-        print (i)
-    return res
-print (func(7))
+text = str(input())
+word =str(input())
+def search (text, word):
+    if word in text :
+        return ("Word Found")
+    else:
+        return ("Word no found")
+
+print(search(text, word))
+
